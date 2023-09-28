@@ -10,8 +10,6 @@ C5	9	2
 
 
 Consider a junction of roads where 4 lanes meet at this junction. Everytime, there is a frequent problem of jamming of vehicles at this junction. To overcome the problem, traffic signal was planned to be installed at the junction. The operation of the signal is planned in such a way that vehicles on each side will be allowed only for 3 minutes and then it will be stopped. The chance will be given to the next side of the vehicles. Write a program in C to implement an appropriate scheduling algorithm to illustrate how the vehicles cross the junction without jamming. Calculate the average waiting time for the vehicles on each lane. Display the results on the screen. 
-
-
 Lane	Arrival Time	Crossing Time
 L1	3	5
 L2	1	3
