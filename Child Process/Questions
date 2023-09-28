@@ -1,0 +1,10 @@
+Write a C program to generate a child process using 4 system call. You can generate any number of child process as required. Get the number of child process to be generated as a input from the user and those child process should be generated for the same parent process. Display the child process and the parent process ID(use getpid() for child process ID and getppid() for parent process ID).
+
+Write a C program to illustrate process termination. 
+a)Create five process(1 parent process and 4 child process) where they should terminate atlast after all the child processes are terminated.
+b) fourth child process terminates last before the parent process.
+c) first child process terminates after the third child process.
+
+Write a C program to show how a child process becomes zombie process.
+
+Write a C program to show when a child process becomes an orphan process.
