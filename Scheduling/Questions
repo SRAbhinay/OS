@@ -1,0 +1,19 @@
+Consider a ticket counter in railway station where the person has to stand in a queue for booking the tickets. The person who arrives first in the queue can buy first 2 then only the next person. This will continue until the last person in the queue purchases the ticket. The order of arriving in the queue decides the chance to buy the ticket. Write a program in C to implement the appropriate scheduling algorithm to calculate the average waiting time and average turn around time for the entire booking process. Display the order of person availing in queue and also the waiting time and turn around time for each process. 
+
+Consider an online delivery app which delivers the program booked online by the customers. This app always chooses the nearest customer first for delivering the product and then the next. If 2 customers are booking at the same time, the nearest customer will be chosen first. Use an appropriate scheduling algorithm in order to deliver the products in correct manner. 
+Customer	Booking Time	Nearest list
+C1	1	6
+C2	3	5
+C3	4	3
+C4	7	9
+C5	9	2
+
+
+Consider a junction of roads where 4 lanes meet at this junction. Everytime, there is a frequent problem of jamming of vehicles at this junction. To overcome the problem, traffic signal was planned to be installed at the junction. The operation of the signal is planned in such a way that vehicles on each side will be allowed only for 3 minutes and then it will be stopped. The chance will be given to the next side of the vehicles. Write a program in C to implement an appropriate scheduling algorithm to illustrate how the vehicles cross the junction without jamming. Calculate the average waiting time for the vehicles on each lane. Display the results on the screen. 
+
+
+Lane	Arrival Time	Crossing Time
+L1	3	5
+L2	1	3
+L3	2	4
+L4	0	2
