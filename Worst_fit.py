@@ -2,7 +2,7 @@ def worst_fit(blockSize, processSize):
     m = len(blockSize)
     n = len(processSize)
     allocation = [-1] * n
-
+ 
     for i in range(n):
         worst_idx = -1
         for j in range(m):
@@ -23,7 +23,7 @@ def worst_fit(blockSize, processSize):
         else:
             print("Not Allocated", end="")
         print("\n")
-
+        
 blockSize = [100, 500, 200, 300, 600]
 processSize = [212, 417, 112, 426]
 
