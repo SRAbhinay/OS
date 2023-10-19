@@ -18,6 +18,7 @@ for (int i = 0; i < THREAD_COUNT; ++i) {
 int ticket = tickets[i];
 max_ticket = ticket > max_ticket ? ticket : max_ticket;
 }
+
 tickets[thread] = max_ticket + 1;
 MEMBAR;
 choosing[thread] = 0;
