@@ -8,6 +8,7 @@
 volatile int tickets[THREAD_COUNT];
 volatile int choosing[THREAD_COUNT];
 volatile int resource;
+
 void lock(int thread)
 {
 choosing[thread] = 1;
