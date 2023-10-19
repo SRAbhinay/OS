@@ -44,6 +44,7 @@ int main()
     avg_waiting_time=(float)total/n;      
     total=0;
     printf("\nProcess\t    Burst Time    \tWaiting Time\tTurnaround Time");
+    
     for(i=0;i<n;i++)
     {
         tat[i]=burst_time[i]+waiting_time[i];   
