@@ -23,8 +23,10 @@ tickets[thread] = max_ticket + 1;
 MEMBAR;
 choosing[thread] = 0;
 MEMBAR;
+
 for (int other = 0; other < THREAD_COUNT; ++other) {
-while (choosing[other]) {
+
+  while (choosing[other]) {
 }
 MEMBAR;
 while (tickets[other] != 0 && (tickets[other]
