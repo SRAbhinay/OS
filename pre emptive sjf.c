@@ -32,6 +32,7 @@ int main()
         p[pos]=temp;
     }
     waiting_time[0]=0;            
+   
     for(i=1;i<n;i++)
     {
         waiting_time[i]=0;
