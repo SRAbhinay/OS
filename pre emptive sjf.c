@@ -36,6 +36,7 @@ int main()
     for(i=1;i<n;i++)
     {
         waiting_time[i]=0;
+        
         for(j=0;j<i;j++)
             waiting_time[i]+=burst_time[j];
         total+=waiting_time[i];
