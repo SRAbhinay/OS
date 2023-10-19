@@ -20,6 +20,7 @@ int main()
         
         for(j=i+1;j<n;j++)
         {
+            
             if(burst_time[j]<burst_time[pos])
                 pos=j;
         }
